@@ -68,6 +68,16 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .hero-title {
     color: var(--primary-bg-color);
     font-family: Roboto;
