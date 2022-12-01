@@ -5,6 +5,7 @@
     --primary-bg-color:#FFFFFF;
     --cloud-color: #F4F4FD;
     --color-button: #404BBF;
+    --color-conflower: #E7E9FC;
 }
 .body {
     background-color: var(--primary-bg-color);
@@ -78,8 +79,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.hero {
+    background-color: var(--navy-blue-color);
+}
 .hero-title {
     color: var(--primary-bg-color);
+    background-color: var(--navy-blue-color);
     font-family: Roboto;
     font-weight: 600;
     font-size: 56px;
@@ -104,6 +109,8 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
     font-family: inherit
 }
 .button.primary:hover,
@@ -113,6 +120,8 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
     font-family: inherit
 }
 .button.primary:active {
@@ -121,7 +130,12 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
     font-family: inherit
+}
+.section-team {
+    background:var(--cloud-color);
 }
 .section-benefits .title {
     color: var(--navy-blue-color);
@@ -133,10 +147,13 @@
 }
 .section-title {
     color: var(--navy-blue-color);
+    font-family: 'Roboto';
+    font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .feature-list .title {
     color: var(--navy-blue-color);
@@ -153,33 +170,43 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.button {
-    background-color: var(--primary-text-color);
-    color: var(--navy-blue-color);
-    font-family: inherit;
+.button.prim {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+    letter-spacing: 0.04em;  
 }
-.button.primary {
+.button.second {
+    background-color: var(--color-conflower);
+    color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button.prim:hover,
+.button.prim:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.button.secondary {
-    background-color: var(--cornflower-colol);
+.button.second:hover, 
+.button.second:focus {
+    background-color: var(--color-conflower);
     color: var(--accent-color);
-}
-.button.primary:hover,
-.button.primary:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
-}
-.button.secondary:hover, 
-.button.secondary:focus {
-    background-color: var(--cornflower-colol);
-    color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .feature-list .title {
     color: var(--navy-blue-color);
@@ -192,6 +219,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+}
+.footer {
+    background-color: var(--navy-blue-color);
 }
 .logo-footer {
     color: var(--cloud-color);
@@ -199,17 +229,22 @@
     font-size: 18px;
     line-height: 1.16;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo-web-footer {
     color: var(--accent-color);
     font-family: Raleway;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
-.footer {
+.footer-text {
+    color: var(color-conflower);
+    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+    
