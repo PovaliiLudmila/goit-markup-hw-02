@@ -7,14 +7,14 @@
     --color-button: #404BBF;
     --color-conflower: #E7E9FC;
 }
-.body {
+body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
 .logo {
     color: var(--navy-blue-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -22,7 +22,7 @@
 }
 .logo-web {
     color: var(--accent-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -34,7 +34,6 @@
 .site-nav .link {
     color: var(--navy-blue-color);
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -43,7 +42,6 @@
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--primary-text-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -52,7 +50,6 @@
 }
 .site-nav .link:active {
     color: var(--accent-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -60,20 +57,26 @@
     letter-spacing: 0.02em;
 
 }
-.contacts {
+.list .contacts {
     color: var(--primary-text-color);
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contacts .link:hover,
-.contacts .link:focus {
+.list .contacts .link:hover,
+.list .contacts .link:focus {
     color: var(--accent-color);
     text-decoration: none;
-    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.list .contacts .link:active {
+    color: var(--accent-color);
+    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -85,7 +88,6 @@
 .hero-title {
     color: var(--primary-bg-color);
     background-color: var(--navy-blue-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
@@ -95,7 +97,6 @@
 .button {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.19;
@@ -139,7 +140,6 @@
 }
 .section-benefits .title {
     color: var(--navy-blue-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -147,7 +147,6 @@
 }
 .section-title {
     color: var(--navy-blue-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
@@ -157,7 +156,6 @@
 }
 .feature-list .title {
     color: var(--navy-blue-color);
-    font-family: Roboto;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -165,7 +163,6 @@
 }
 .feature-list .text {
     color: var(--primary-text-color);
-    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -174,7 +171,6 @@
 .button.prim {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -184,7 +180,6 @@
 .button.second {
     background-color: var(--color-conflower);
     color: var(--accent-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -195,7 +190,6 @@
 .button.prim:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -206,7 +200,6 @@
 .button.second:focus {
     background-color: var(--color-conflower);
     color: var(--accent-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -230,7 +223,7 @@
 }
 .logo-footer {
     color: var(--cloud-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.16;
     text-decoration: none;
@@ -238,7 +231,7 @@
 }
 .logo-web-footer {
     color: var(--accent-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -246,7 +239,6 @@
 }
 .footer-text {
     color: var(color-conflower);
-    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
