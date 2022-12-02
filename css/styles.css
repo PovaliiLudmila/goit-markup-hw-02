@@ -57,7 +57,7 @@ body {
     letter-spacing: 0.02em;
 
 }
-.list .contacts {
+.contact .contacts {
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 400;
@@ -65,16 +65,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.list .contacts .link:hover,
-.list .contacts .link:focus {
-    color: var(--accent-color);
+.contact .contacts:hover,
+.contact .contacts:focus {
+    color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.list .contacts .link:active {
+.contact .contacts:active {
     color: var(--accent-color);
     text-decoration: none;
     font-weight: 400;
@@ -169,15 +169,6 @@ body {
     letter-spacing: 0.02em;
 }
 .button.prim {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;  
-    cursor: pointer;
-}
-.button.second {
     background-color: var(--color-conflower);
     color: var(--accent-color);
     font-weight: 600;
@@ -190,16 +181,6 @@ body {
 .button.prim:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-.button.second:hover, 
-.button.second:focus {
-    background-color: var(--color-conflower);
-    color: var(--accent-color);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -238,7 +219,7 @@ body {
     letter-spacing: 0.03em;
 }
 .footer-text {
-    color: var(color-conflower);
+    color: var(--color-conflower);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
