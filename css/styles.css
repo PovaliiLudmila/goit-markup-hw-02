@@ -34,6 +34,33 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.header-page {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.site-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 331px; 
+}
+.navigation:not(:last-child) {
+    margin-right: 40px;
+}
+.adress:not(:last-child) {
+    margin-right: 40px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
 .logo {
     color: var(--navy-blue-color);
     font-family: Raleway, sans-serif;
@@ -41,6 +68,7 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 77px;
 }
 .logo-web {
     color: var(--accent-color);
@@ -106,6 +134,7 @@ body {
 }
 .hero {
     background-color: var(--navy-blue-color);
+    text-align: center;
 }
 .hero-title {
     color: var(--primary-bg-color);
@@ -113,8 +142,8 @@ body {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 .button.primary {
     background-color: var(--accent-color);
@@ -128,6 +157,9 @@ body {
     border-radius: 4px;
     padding: 14px 32px;
     min-width: 170px;
+    display: inline-block;
+    
+    border: 1px solid transparent;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -152,6 +184,16 @@ body {
 }
 .section-team {
     background:var(--cloud-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin-bottom: 8px;
 }
 .section-benefits .title {
     color: var(--navy-blue-color);
@@ -160,6 +202,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .section-title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -168,6 +211,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-bottom: 72px;
 }
 .feature-list .title {
     color: var(--navy-blue-color);
@@ -194,6 +238,8 @@ body {
     padding: 12px 24px;
     min-width: 69px;
     display: inline-block;
+    text-align: center;
+    border: 1px solid var(--color-conflower);
 }
 .button.prim:hover,
 .button.prim:focus {
@@ -203,6 +249,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: 1px solid transparent;
 }
 .feature-list .title {
     color: var(--navy-blue-color);
@@ -218,6 +265,8 @@ body {
 }
 .footer {
     background-color: var(--navy-blue-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logo-footer {
     color: var(--cloud-color);
