@@ -135,6 +135,9 @@ body {
 .hero {
     background-color: var(--navy-blue-color);
     text-align: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
+    margin-bottom: 120px;
 }
 .hero-title {
     color: var(--primary-bg-color);
@@ -155,7 +158,7 @@ body {
     letter-spacing: 0.04em;
     font-family: inherit;
     border-radius: 4px;
-    padding: 14px 32px;
+    padding: 16px 32px;
     min-width: 170px;
     display: inline-block;
     
@@ -195,6 +198,7 @@ body {
     color: var(--navy-blue-color);
     margin-bottom: 8px;
 }
+
 .section-benefits .title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -202,7 +206,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
+.section-benefits {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .section-title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -213,6 +222,27 @@ body {
     text-transform: capitalize;
     padding-bottom: 72px;
 }
+.img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+.benefits .title {
+    align-items: center;
+}
+
+.benefits .title,
 .feature-list .title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -220,7 +250,40 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.feature-list .title {
+    text-align: center;
+}
+.benefits .text,
 .feature-list .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.feature-list .text {
+    text-align: center;
+}
+.cards-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+    padding-top: 72px;
+}
+.cards:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+.cards:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 48px;
+}
+.cards-img .title {
+    color: var(--navy-blue-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+} 
+.cards-img .text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -251,18 +314,8 @@ body {
     letter-spacing: 0.04em;
     border: 1px solid transparent;
 }
-.feature-list .title {
-    color: var(--navy-blue-color);
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-}
-.feature-list .text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
+
+
 .footer {
     background-color: var(--navy-blue-color);
     padding-top: 100px;
